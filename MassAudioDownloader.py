@@ -85,7 +85,7 @@ def get_dat_ass(how_many_asses = 1):
                             f.write(chunk)
                             f.flush()
                 print(f"File downloaded successfully at {file_path}")
-                break
+                #break
         print(str(c) + "x audio files were discovered and downloaded.")
         fuck_that_dot_ogg_lets_have_dot_wav(put_files_here)
 
